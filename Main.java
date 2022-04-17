@@ -303,7 +303,6 @@ public class Main {
             "max-width: 50%;\n" +
             "flex-direction: column;\n" +
             "justify-content: left;\n" +
-            "text-align: left;\n" +
             "background-color: #379EC1;\n" +
             "border: 2px solid rgb(255, 255, 255);\n" +
             "border-radius: 20px;\n" +
