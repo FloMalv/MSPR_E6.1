@@ -352,7 +352,7 @@ public class Main {
 
                         "<body>\n" +
                         "<!-- main -->\n" +
-                        "<a href=\"/var/www/html/MSPR_E6.1/index.html/> Revenir à l'index </a>"+
+                        "<a href=\"/index.html> Revenir à l'index </a>"+
                         "<main>\n" +
                         "<div class=\"partie_nom_photo\">\n" +
                         "<div class=\"name\">\n" +
@@ -415,7 +415,7 @@ public class Main {
                         "<footer>\n" +
                         "<div class=\"logo\">\n" +
                         //récupére l'image de la personne
-                        "<img width=\"400\" height=\"400\" src=\"/var/www/html/MSPR_E6.1/" + fileName + ".jpg\" />\n" + // chemin + filename + ".png"
+                        "<img width=\"400\" height=\"400\" src=\"" + fileName + ".jpg\" />\n" + // chemin + filename + ".png"
                         "</div>\n" +
                         "</footer>\n" +
                         "</body>\n" +
