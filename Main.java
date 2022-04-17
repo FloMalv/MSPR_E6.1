@@ -13,7 +13,7 @@ public class Main {
 
         try {
             //récupére le fichier staff.txt
-            BufferedReader entree = new BufferedReader(new FileReader("/var/www/html/MSPR_E6.1/staff.txt"));
+            BufferedReader entree = new BufferedReader(new FileReader("staff.txt"));
             Scanner scan = new Scanner(entree);
 
             //lis le fichier staff pour ajouter chaque personne dans une liste
@@ -176,7 +176,7 @@ public class Main {
             // regarde les infos pour chaque personne
             for (String fileName : ListePersonne){
                 //récupére le fichier .txt de la personne
-                BufferedReader entree = new BufferedReader(new FileReader("/var/www/html/MSPR_E6.1/"+ fileName + ".txt"));
+                BufferedReader entree = new BufferedReader(new FileReader(""+ fileName + ".txt"));
                 Scanner scan = new Scanner(entree);
 
                 int index = 0;
