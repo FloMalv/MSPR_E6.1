@@ -212,7 +212,7 @@ public class Main {
                 if (materielPersonne.contains("mousqueton")){
                     mousquetonCheck = "checked";
                 }
-                if (materielPersonne.contains("gants)){
+                if (materielPersonne.contains("gants")){
                     gantsCheck = "checked";
                 }
                 if (materielPersonne.contains("menottes")){
