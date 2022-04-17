@@ -206,8 +206,8 @@ public class Main {
                 String lampeCheck = "";
                 String talkyCheck = "";
                 String kitCheck = "";
-                String taser = "";
-                String lacrymo = "";
+                String taserCheck = "";
+                String lacrymoCheck = "";
 
                 if (materielPersonne.contains("mousqueton")){
                     mousquetonCheck = "checked";
