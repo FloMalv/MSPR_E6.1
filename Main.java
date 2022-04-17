@@ -367,60 +367,70 @@ public class Main {
 
 
                         "<div class=\"infos_checks\">\n" +
-                        "<label for=\"Mousqueton\">Mousqueton"+"<input type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\" disabled=\"disabled\" " + mousquetonCheck+"></label>" + "\n" +
+                        "<label for=\"Mousqueton\">Mousqueton"+"<input type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\" disabled=\"disabled\" " + 
+                                    mousquetonCheck+"></label>" + "\n" +
                         // vérifie si la personne a un mousquetton                  
 
 
-                        "<label for=\"Gant\">Gants d'intervention</label>" +
+                        "<label for=\"Gant\">Gants d'intervention"+"<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + 
+                                    gantsCheck + "></label>" + "\n" +
                         // vérifie si la personne a un des gants d'intervention
-                        "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantsCheck + "\n" +
+                        
 
 
 
-                        "<label for=\"Menottes\">Port menottes</label>" +
+                        "<label for=\"Menottes\">Port menottes"+"<input type=\"checkbox\" id=\"menottes\" name=\"menottes\" disabled=\"disabled\" " + 
+                                    menottesCheck + "></label>" + "\n" +
                         // vérifie si la personne les menottes
-                        "<input type=\"checkbox\" id=\"menottes\" name=\"menottes\" disabled=\"disabled\" " + menottesCheck + "\n" +
+                        
 
 
-                        "<label for=\"Cyno\">Cyno bandeau agent cynophile</label>" +
+                        "<label for=\"Cyno\">Cyno bandeau agent cynophile"+"<input type=\"checkbox\" id=\"cyno\" name=\"cyno\" disabled=\"disabled\" " + 
+                                    cynoCheck + "></label>" + "\n" +
                         // vérifie si la personne a un cyno
-                        "<input type=\"checkbox\" id=\"cyno\" name=\"xyno\" disabled=\"disabled\" " + cynoCheck + "\n" +
+                        
    
 
     
-                        "<label for=\"Brassard\">Brassard de sécurité</label>" +
+                        "<label for=\"Brassard\">Brassard de sécurité"+"<input type=\"checkbox\" id=\"Brassard\" name=\"Brassard\" disabled=\"disabled\" " + 
+                                    brassardCheck + "></label>" + "\n" +
                         // vérifie si la personne a un brassard de sécurité
-                        "<input type=\"checkbox\" id=\"Brassard\" name=\"Brassard\" disabled=\"disabled\" " + brassardCheck + "\n" +
+                        
    
 
 
-                        "<label for=\"Lampe\">Lampe torche</label>" +
+                        "<label for=\"Lampe\">Lampe torche"+"<input type=\"checkbox\" id=\"Lampe\" name=\"Lampe\" disabled=\"disabled\" " + 
+                                    lampeCheck + "></label>" + "\n" +
                         // vérifie si la personne a une lampe torche
-                        "<input type=\"checkbox\" id=\"Lampe\" name=\"Lampe\" disabled=\"disabled\" " + lampeCheck + "\n" +
+                        
   
 
 
-                        "<label for=\"Talkies walkies\">Talkies walkies</label>" +
+                        "<label for=\"Talkies walkies\">Talkies walkies"+"<input type=\"checkbox\" id=\"talky\" name=\"talky\" disabled=\"disabled\" " + 
+                                    talkyCheck + "></label>" + "\n" +
                         // vérifie si la personne a un talky
-                        "<input type=\"checkbox\" id=\"talky\" name=\"talky\" disabled=\"disabled\" " + talkyCheck + "\n" +
+                        
              
                                     
   
-                        "<label for=\"kit\">Kit oreillette</label>" +
+                        "<label for=\"kit\">Kit oreillette"+"<input type=\"checkbox\" id=\"kit\" name=\"kit\" disabled=\"disabled\" " + 
+                                    kitCheck + "></label>" + "\n" +
                         // vérifie si la personne a un kit
-                        "<input type=\"checkbox\" id=\"kit\" name=\"kit\" disabled=\"disabled\" " + kitCheck + "\n" +
+                        
         
 
                         
      
-                        "<label for=\"taser\">Tasers</label>" +
+                        "<label for=\"taser\">Tasers"+"<input type=\"checkbox\" id=\"taser\" name=\"taser\" disabled=\"disabled\" " + 
+                                    taserCheck + "></label>" + "\n" +
                         // vérifie si la personne a un taser
-                        "<input type=\"checkbox\" id=\"taser\" name=\"taser\" disabled=\"disabled\" " + taserCheck + "\n" +
+                        
       
 
-                        "<label for=\"lacrymo\">Bombes lacrymogènes</label>" +
+                        "<label for=\"lacrymo\">Bombes lacrymogènes"+"<input type=\"checkbox\" id=\"lacrymo\" name=\"lacrymo\" disabled=\"disabled\" " + 
+                                    lacrymoCheck + "></label>" + "\n" +
                         // vérifie si la personne a une lacrymo
-                        "<input type=\"checkbox\" id=\"lacrymo\" name=\"lacrymo\" disabled=\"disabled\" " + lacrymoCheck + "\n" +
+                        
                         "</div>\n" +
                         "</main>\n" +
 
