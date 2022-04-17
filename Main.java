@@ -185,7 +185,7 @@ public class Main {
                 while(scan.hasNextLine()) {
                     line = scan.nextLine();
                     //ajoute le info de la personne dans une liste
-                    if (index < 4){
+                    if (index <= 4){
                         infoPersonne.add(line);
                     }
                     //ajoute le matériel de la personne dans une liste
