@@ -369,7 +369,7 @@ public class Main {
                         "<div class=\"infos_checks\">" +
                         "<label for=\"Mousqueton\">Mousqueton</label>" +
                         // vérifie si la personne a un mousquetton
-                        "<input class=\"box\" type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\"disabled=\"disabled\" + " + mousquetonCheck + " \n" +
+                        "<input type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\"disabled=\"disabled\" " + mousquetonCheck + " \n" +
 
 
 
