@@ -176,7 +176,7 @@ public class Main {
             // regarde les infos pour chaque personne
             for (String fileName : ListePersonne){
                 //récupére le fichier .txt de la personne
-                BufferedReader entree = new BufferedReader(new FileReader(""+ fileName + ".txt"));
+                BufferedReader entree = new BufferedReader(new FileReader( fileName + ".txt"));
                 Scanner scan = new Scanner(entree);
 
                 int index = 0;
@@ -185,11 +185,11 @@ public class Main {
                 while(scan.hasNextLine()) {
                     line = scan.nextLine();
                     //ajoute le info de la personne dans une liste
-                    for (index < 4){
+                    if (index < 4){
                         infoPersonne.add(line);
                     }
                     //ajoute le matériel de la personne dans une liste
-                    for {
+                    else {
                         materielPersonne.add(line);
                     }
                     index++;
