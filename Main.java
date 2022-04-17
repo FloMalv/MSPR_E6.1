@@ -218,10 +218,10 @@ public class Main {
                 if (materielPersonne.contains("détecteur de métaux")){
                     detecteurMetauxCheck = "checked";
                 }
-                if (materielPersonne.contains("brassard de sécurité")){
-                    brassardSecuriteCheck = "checked";
+                if (materielPersonne.contains("brassard")){
+                    brassardCheck = "checked";
                 }
-                if (materielPersonne.contains("lampe torche")){
+                if (materielPersonne.contains("lampe")){
                     lampeTorcheCheck = "checked";
                 }
                 if (materielPersonne.contains("gillet pare balle")){
@@ -394,13 +394,13 @@ public class Main {
                         "<div class=\"info_check\">\n" +
                         "<label for=\"Brassard\">Brassard de sécurité</label>\n" +
                         // vérifie si la personne a un brassard de sécurité
-                        "<input type=\"checkbox\" id=\"Brassard\" name=\"Brassard\" disabled=\"disabled\" " + brassardSecuriteCheck + "\n" +
+                        "<input type=\"checkbox\" id=\"Brassard\" name=\"Brassard\" disabled=\"disabled\" " + brassardCheck + "\n" +
                         "</div>\n" +
 
                         "<div class=\"info_check\">\n" +
                         "<label for=\"Lampe\">Lampe torche</label>\n" +
                         // vérifie si la personne a une lampe torche
-                        "<input type=\"checkbox\" id=\"Lampe\" name=\"Lampe\" disabled=\"disabled\" " + lampeTorcheCheck + "\n" +
+                        "<input type=\"checkbox\" id=\"Lampe\" name=\"Lampe\" disabled=\"disabled\" " + lampeCheck + "\n" +
                         "</div>\n" +
 
                         "<div class=\"info_check\">\n" +
