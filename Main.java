@@ -371,7 +371,8 @@ public class Main {
                         "</div>\n" +
 
                         "<div class=\"photo\">\n" +
-                        "<img src=\"\" />\n" +
+                        //récupére l'image de la personne
+                        "<img width=\"400\" height=\"400\" src=\"" + fileName + ".jpg\" />\n" + // chemin + filename + ".png"
                         "</div>\n" +
                         "</div>\n" +
 
@@ -442,9 +443,9 @@ public class Main {
                         "<!-- footer -->\n" +
                         "<footer>\n" +
                         "<div class=\"logo\">\n" +
-                        //récupére l'image de la personne
-                        "<img width=\"400\" height=\"400\" src=\"" + fileName + ".jpg\" />\n" + // chemin + filename + ".png"
+                        "<img src=\"gosecuri.PNG\" />\n" +
                         "</div>\n" +
+                                    
                         "</footer>\n" +
                         "</body>\n" +
                         "</html>\n"
