@@ -352,7 +352,7 @@ public class Main {
 
                         "<body>\n" +
                         "<!-- main -->\n" +
-                        "<a href=\"/var/www/html/MSPR_E6.1/index.html/"> "Revenir à l'index </a>"+
+                        "<a href=\"/var/www/html/MSPR_E6.1/index.html/"+"> Revenir à l'index </a>"+
                         "<main>\n" +
                         "<div class=\"partie_nom_photo\">\n" +
                         "<div class=\"name\">\n" +
