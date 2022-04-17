@@ -374,7 +374,7 @@ public class Main {
 
                         "<label for=\"Gant\">Gants d'intervention</label>" +
                         // vérifie si la personne a un des gants d'intervention
-                        "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantsCheck + "\n"
+                        "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantsCheck + "\n" +
 
 
 
