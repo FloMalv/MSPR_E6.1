@@ -198,25 +198,28 @@ public class Main {
                 entree.close();
 
                 //verifie le matériel de la personne
-                String mousquettonCheck = "";
-                String gantInterventionCheck = "";
-                String ceintureSecuriteCheck = "";
-                String detecteurMetauxCheck = "";
+                String mousquetonCheck = "";
+                String gantsCheck = "";
+                String menottesCheck = "";
+                String cynoCheck = "";
                 String brassardCheck = "";
                 String lampeCheck = "";
-                String gilletCheck = "";
+                String talkyCheck = "";
+                String kitCheck = "";
+                String taser = "";
+                String lacrymo = "";
 
-                if (materielPersonne.contains("mousquetton")){
-                    mousquettonCheck = "checked";
+                if (materielPersonne.contains("mousqueton")){
+                    mousquetonCheck = "checked";
                 }
-                if (materielPersonne.contains("gant d'intervention")){
-                    gantInterventionCheck = "checked";
+                if (materielPersonne.contains("gants)){
+                    gantsCheck = "checked";
                 }
-                if (materielPersonne.contains("ceinture de sécurité tactique")){
-                    ceintureSecuriteCheck = "checked";
+                if (materielPersonne.contains("menottes")){
+                    menottesCheck = "checked";
                 }
-                if (materielPersonne.contains("détecteur de métaux")){
-                    detecteurMetauxCheck = "checked";
+                if (materielPersonne.contains("cyno")){
+                    cynoCheck = "checked";
                 }
                 if (materielPersonne.contains("brassard")){
                     brassardCheck = "checked";
@@ -224,11 +227,18 @@ public class Main {
                 if (materielPersonne.contains("lampe")){
                     lampeCheck = "checked";
                 }
-                if (materielPersonne.contains("gillet pare balle")){
-                    gilletCheck = "checked";
+                if (materielPersonne.contains("talky")){
+                    talkyCheck = "checked";
                 }
-
-
+                if (materielPersonne.contains("kit")){
+                    kitCheck = "checked";
+                }
+                if (materielPersonne.contains("taser")){
+                    taserCheck = "checked";
+                }
+                if (materielPersonne.contains("lacrymo")){
+                    lacrymoCheck = "checked";
+                }
                 fluxSortie = new PrintWriter(new FileOutputStream(fileName + ".html"));
                 fluxSortie.println(("<!DOCTYPE html>\n" +
                         "<html lang=\"fr\">\n" +
@@ -370,25 +380,25 @@ public class Main {
                         "<div class=\"info_check\">\n" +
                         "<label for=\"Mousqueton\">Mousqueton</label>\n" +
                         // vérifie si la personne a un mousquetton
-                        "<input class=\"box\" type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\"disabled=\"disabled\" + " + mousquettonCheck + " \n" +
+                        "<input class=\"box\" type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\"disabled=\"disabled\" + " + mousquetonCheck + " \n" +
                         "</div>\n" +
 
                         "<div class=\"info_check\">\n" +
-                        "<label for=\"Gant\">Gant d'intervention</label>\n" +
+                        "<label for=\"Gant\">Gants d'intervention</label>\n" +
                         // vérifie si la personne a un des gants d'intervention
-                        "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantInterventionCheck + "\n" +
+                        "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantsCheck + "\n" +
                         "</div>\n" +
 
                         "<div class=\"info_check\">\n" +
-                        "<label for=\"Ceinture\">Ceinture de sécurité tactique</label>\n" +
-                        // vérifie si la personne a une ceinture de sécurité
-                        "<input type=\"checkbox\" id=\"Ceinture\" name=\"Ceinture\" disabled=\"disabled\" " + ceintureSecuriteCheck + "\n" +
+                        "<label for=\"Menottes\">Port menottes</label>\n" +
+                        // vérifie si la personne les menottes
+                        "<input type=\"checkbox\" id=\"menottes\" name=\"menottes\" disabled=\"disabled\" " + menottesCheck + "\n" +
                         "</div>\n" +
 
                         "<div class=\"info_check\">\n" +
-                        "<label for=\"Détecteur\">Détecteur de métaux</label>\n" +
-                        // vérifie si la personne a un détecteur à métaux
-                        "<input type=\"checkbox\" id=\"Détecteur\" name=\"Détecteur\" disabled=\"disabled\" " + detecteurMetauxCheck + "\n" +
+                        "<label for=\"Cyno\">Cyno bandeau agent cynophile</label>\n" +
+                        // vérifie si la personne a un cyno
+                        "<input type=\"checkbox\" id=\"cyno\" name=\"xyno\" disabled=\"disabled\" " + cynoCheck + "\n" +
                         "</div>\n" +
 
                         "<div class=\"info_check\">\n" +
@@ -404,10 +414,28 @@ public class Main {
                         "</div>\n" +
 
                         "<div class=\"info_check\">\n" +
-                        "<label for=\"Gillet\">Gillet pare balle</label>\n" +
-                        // vérifie si la personne a un gillet
-                        "<input type=\"checkbox\" id=\"Gillet\" name=\"Gillet\" disabled=\"disabled\" " + gilletCheck + "\n" +
+                        "<label for=\"Talkies walkies\">Talkies walkies</label>\n" +
+                        // vérifie si la personne a un talky
+                        "<input type=\"checkbox\" id=\"talky\" name=\"talky\" disabled=\"disabled\" " + talkyCheck + "\n" +
                         "</div>\n" +
+                                    
+                        "<div class=\"info_check\">\n" +
+                        "<label for=\"kit\">Kit oreillette</label>\n" +
+                        // vérifie si la personne a un kit
+                        "<input type=\"checkbox\" id=\"kit\" name=\"kit\" disabled=\"disabled\" " + kitCheck + "\n" +
+                        "</div>\n" +
+
+                        
+                         "<div class=\"info_check\">\n" +
+                        "<label for=\"taser\">Tasers</label>\n" +
+                        // vérifie si la personne a un taser
+                        "<input type=\"checkbox\" id=\"taser\" name=\"taser\" disabled=\"disabled\" " + taserCheck + "\n" +
+                        "</div>\n" +
+
+                        "<div class=\"info_check\">\n" +
+                        "<label for=\"lacrymo\">Bombes lacrymogènes</label>\n" +
+                        // vérifie si la personne a une lacrymo
+                        "<input type=\"checkbox\" id=\"lacrymo\" name=\"lacrymo\" disabled=\"disabled\" " + lacrymoCheck + "\n" +
                         "</div>\n" +
                         "</main>\n" +
 
