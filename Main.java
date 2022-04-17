@@ -219,7 +219,7 @@ public class Main {
                     detecteurMetauxCheck = "checked";
                 }
                 if (materielPersonne.contains("brassard")){
-                    brassardCheck = "checked";
+                    brassardsecuriteCheck = "checked";
                 }
                 if (materielPersonne.contains("lampe")){
                     lampeTorcheCheck = "checked";
