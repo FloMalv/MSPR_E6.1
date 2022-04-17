@@ -367,61 +367,60 @@ public class Main {
 
 
                         "<div class=\"infos_checks\">\n" +
-                        "<label for=\"Mousqueton\">Mousqueton</label>\n" +
+                        "<label for=\"Mousqueton\">Mousqueton</label>" +
                         // vérifie si la personne a un mousquetton
                         "<input class=\"box\" type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\"disabled=\"disabled\" + " + mousquetonCheck + " \n" +
 
 
 
-                        "<label for=\"Gant\">Gants d'intervention</label>\n" +
+                        "<label for=\"Gant\">Gants d'intervention</label>" +
                         // vérifie si la personne a un des gants d'intervention
                         "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantsCheck + "\n" +
 
 
 
-                        "<label for=\"Menottes\">Port menottes</label>\n" +
+                        "<label for=\"Menottes\">Port menottes</label>" +
                         // vérifie si la personne les menottes
                         "<input type=\"checkbox\" id=\"menottes\" name=\"menottes\" disabled=\"disabled\" " + menottesCheck + "\n" +
 
 
-                        "<label for=\"Cyno\">Cyno bandeau agent cynophile</label>\n" +
+                        "<label for=\"Cyno\">Cyno bandeau agent cynophile</label>" +
                         // vérifie si la personne a un cyno
                         "<input type=\"checkbox\" id=\"cyno\" name=\"xyno\" disabled=\"disabled\" " + cynoCheck + "\n" +
    
 
     
-                        "<label for=\"Brassard\">Brassard de sécurité</label>\n" +
+                        "<label for=\"Brassard\">Brassard de sécurité</label>" +
                         // vérifie si la personne a un brassard de sécurité
                         "<input type=\"checkbox\" id=\"Brassard\" name=\"Brassard\" disabled=\"disabled\" " + brassardCheck + "\n" +
    
 
 
-                        "<label for=\"Lampe\">Lampe torche</label>\n" +
+                        "<label for=\"Lampe\">Lampe torche</label>" +
                         // vérifie si la personne a une lampe torche
                         "<input type=\"checkbox\" id=\"Lampe\" name=\"Lampe\" disabled=\"disabled\" " + lampeCheck + "\n" +
   
 
 
-                        "<label for=\"Talkies walkies\">Talkies walkies</label>\n" +
+                        "<label for=\"Talkies walkies\">Talkies walkies</label>" +
                         // vérifie si la personne a un talky
                         "<input type=\"checkbox\" id=\"talky\" name=\"talky\" disabled=\"disabled\" " + talkyCheck + "\n" +
              
                                     
   
-                        "<label for=\"kit\">Kit oreillette</label>\n" +
+                        "<label for=\"kit\">Kit oreillette</label>" +
                         // vérifie si la personne a un kit
                         "<input type=\"checkbox\" id=\"kit\" name=\"kit\" disabled=\"disabled\" " + kitCheck + "\n" +
         
 
                         
      
-                        "<label for=\"taser\">Tasers</label>\n" +
+                        "<label for=\"taser\">Tasers</label>" +
                         // vérifie si la personne a un taser
                         "<input type=\"checkbox\" id=\"taser\" name=\"taser\" disabled=\"disabled\" " + taserCheck + "\n" +
       
 
-                        "<div class=\"infos_checks\">\n" +
-                        "<label for=\"lacrymo\">Bombes lacrymogènes</label>\n" +
+                        "<label for=\"lacrymo\">Bombes lacrymogènes</label>" +
                         // vérifie si la personne a une lacrymo
                         "<input type=\"checkbox\" id=\"lacrymo\" name=\"lacrymo\" disabled=\"disabled\" " + lacrymoCheck + "\n" +
                         "</div>\n" +
