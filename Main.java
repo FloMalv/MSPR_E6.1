@@ -202,8 +202,8 @@ public class Main {
                 String gantInterventionCheck = "";
                 String ceintureSecuriteCheck = "";
                 String detecteurMetauxCheck = "";
-                String brassardSecuriteCheck = "";
-                String lampeTorcheCheck = "";
+                String brassardCheck = "";
+                String lampeCheck = "";
                 String gilletCheck = "";
 
                 if (materielPersonne.contains("mousquetton")){
@@ -219,10 +219,10 @@ public class Main {
                     detecteurMetauxCheck = "checked";
                 }
                 if (materielPersonne.contains("brassard")){
-                    brassardsecuriteCheck = "checked";
+                    brassardCheck = "checked";
                 }
                 if (materielPersonne.contains("lampe")){
-                    lampeTorcheCheck = "checked";
+                    lampeCheck = "checked";
                 }
                 if (materielPersonne.contains("gillet pare balle")){
                     gilletCheck = "checked";
