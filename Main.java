@@ -367,15 +367,14 @@ public class Main {
 
 
                         "<div class=\"infos_checks\">" +
-                        "<label for=\"Mousqueton\">Mousqueton"+ "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantsCheck + "\n" +"</label>" +
-                        // vérifie si la personne a un mousquetton
-                       
+                        "<label for=\"Mousqueton\">Mousqueton"+"<input type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\" disabled=\"disabled\" " + mousquetonCheck +" </label>" + "\n" +
+                        // vérifie si la personne a un mousquetton                  
 
 
 
                         "<label for=\"Gant\">Gants d'intervention</label>" +
                         // vérifie si la personne a un des gants d'intervention
-                        
+                        "<input type=\"checkbox\" id=\"Gant\" name=\"Gant\" disabled=\"disabled\" " + gantsCheck + "\n"
 
 
 
