@@ -347,6 +347,8 @@ public class Main {
             "width: 290px;\n" +
             "height: 100%;\n" +
         "}\n" +
+         "</style>\n" +
+      "</head>\n" +
 
                         "<body>\n" +
                         "<!-- main -->\n" +
