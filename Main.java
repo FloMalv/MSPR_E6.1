@@ -366,10 +366,10 @@ public class Main {
                         "</div>\n" +
 
 
-                        "<div class=\"infos_checks\">" +
-                        "<label for=\"Mousqueton\">Mousqueton"+"<input type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\" disabled=\"disabled\" " + mousquetonCheck +" </label>" + "\n" +
+                        "<div class=\"infos_checks\">\n" +
+                        "<label for=\"Mousqueton\">Mousqueton</label>" +
                         // vérifie si la personne a un mousquetton                  
-
+                        "<input type=\"checkbox\" id=\"Mousqueton\" name=\"Mousqueton\" disabled=\"disabled\" " + mousquetonCheck + "\n" +
 
 
                         "<label for=\"Gant\">Gants d'intervention</label>" +
