@@ -253,112 +253,100 @@ public class Main {
                         "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n" +
                         "<link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap\" rel=\"stylesheet\">\n" +
 
-                        "<style>\n" +
-                        "html{\n" +
-                        " background-color: #659224;\n" +
-                        "font-family: 'Roboto', sans-serif;\n" +
-                        "}\n" +
-
-                        "main{\n" +
-                        "max-width: 1000px;\n" +
-                        "margin: auto;\n" +
-                        "}\n" +
-
-                        "h1{\n" +
-                        "font-size: 35px;\n" +
-                        "}\n" +
-
-                        "/* --- partie nom/photo --- */\n" +
-                        ".partie_nom_photo{\n" +
-                        "display: flex;\n" +
-                        "justify-content: space-between;\n" +
-                        "margin-top: 60px;\n" +
-                        "margin-bottom: 25px;\n" +
-                        "}\n" +
-
-                        "/* --- partie nom --- */\n" +
-                        ".name{\n" +
-                        "display: block;\n" +
-                        "background-color: #379EC1;\n" +
-                        "border: 2px solid rgb(0, 0, 0);\n" +
-                        "height: 65px;\n" +
-                        "padding: 15px;\n" +
-                        "}\n" +
-
-                        "/* --- partie photo --- */\n" +
-                        "/*.photo{\n" +
-                        "height: 230px;\n" +
-                        "width: 350px;\n" +
-                        "border: 2px solid grey;\n" +
-                        "overflow: hidden;\n" +
-                        "position: relative;\n" +
-                        "}*/\n" +
-
-                        ".photo img{\n" +
-                        "width: 150%;\n" +
-                        "border: 2px solid rgb(0, 0, 0);\n" +
-                        "/* position: absolute;\n" +
-                        "top: 50%;\n" +
-                        "left: 50%;\n" +
-                        "transform: translate(-50%, -50%);*/\n" +
-                        "}\n" +
-
-                        ".photo:hover{\n" +
-                        "transform: scale(1.3);\n" +
-                        "}\n" +
-
-                        "/* --- partie checkbox --- */\n" +
-                        ".infos_checks{\n" +
-                        "display: flex;\n" +
-                        "max-width: 400px;\n" +
-                        "flex-direction: column;\n" +
-                        "justify-content: center;\n" +
-                        "text-align: end;\n" +
-                        "background-color: #379EC1;\n" +
-                        "border: 2px solid  rgb(29, 28, 28);\n" +
-                        "margin-top: 80px;\n" +
-                        "margin-bottom: 40px;\n" +
-                        "}\n" +
-
-                        ".info_check{\n" +
-                        "padding: 15px;\n" +
-                        "}\n" +
-
-                        "label{\n" +
-                        "font-size: 20px;\n" +
-                        "}\n" +
-
-                        "/* --- footer --- */\n" +
-                        "footer{\n" +
-                        "display: flex;\n" +
-                        "flex-direction: column;\n" +
-                        "justify-content: center;\n" +
-                        "align-items: center;\n" +
-                        "height: 150px;\n" +
-                        "background-color: rgb(0, 0, 0);\n" +
-                        "color: white;\n" +
-                        "}\n" +
-
-                        "@media only screen and (max-width: 500px) \n" +
-                        "{\n" +
-                        ".partie_nom_photo{\n" +
-                        "display: flex;\n" +
-                        "flex-direction: column;\n" +
-                        "}\n" +
-
-                        ".name{\n" +
-                        "margin-bottom: 25px;\n" +
-                        "}\n" +
-                        "}\n" +
-
-                        "/* --- logo --- */\n" +
-                        ".logo{\n" +
-                        "width: 290px;\n" +
-                        "height: 100%;\n" +
-                        "}\n" +
-
-                        "</style>\n" +
-                        "</head>\n" +
+                        "<style>" +
+        "html {\n" +
+            "background-image: url("securite.jpg");\n" +
+            "background-repeat: no-repeat;\n" +
+            "background-size: 100% 105%;\n" +
+            "font-family: 'Roboto', sans-serif;\n" +
+            "padding: 0px;\n" +
+            "margin: 0px;\n" +
+        "}\n" +
+        
+        "main {\n" +
+            "max-width: 100%;\n" +
+        "}\n" +
+        
+        "h1 {\n" +
+            "font-size: 85px;\n" +
+            "color: #fff;\n" +
+        "}\n" +
+        "/* --- partie nom/photo --- */\n" +
+        
+        ".partie_nom_photo {\n" +
+            "display: flex;\n" +
+            "justify-content: left;\n" +
+            "margin-top: 60px;\n" +
+            "margin-bottom: 25px;\n" +
+        "}\n" +
+        "/* --- partie nom --- */\n" +
+        
+        ".name {\n" +
+            "display: block;\n" +
+            "height: 65px;\n" +
+            "padding: 15px;\n" +
+        "}\n" +
+        "/* --- partie photo --- */\n" +
+        
+        ".photo img {\n" +
+            "width: 100%;\n" +
+            "padding-left: 20px;\n" +
+        "}\n" +
+        
+        ".photo:hover {\n" +
+            "transform: scale(1.3);\n" +
+        "}\n" +
+        "/* --- partie checkbox --- */\n" +
+        
+        ".infos_checks {\n" +
+            "display: flex;\n" +
+            "max-width: 50%;\n" +
+            "flex-direction: column;\n" +
+            "justify-content: left;\n" +
+            "text-align: left;\n" +
+            "background-color: #379EC1;\n" +
+            "border: 2px solid rgb(255, 255, 255);\n" +
+            "border-radius: 20px;\n" +
+            "margin-top: 80px;\n" +
+            "margin-bottom: 40px;\n" +
+        "}\n" +
+        
+        ".info_check {\n" +
+            "padding: 15px;\n" +
+        "}\n" +
+        
+        "label {\n" +
+            "font-size: 20px;\n" +
+        "}\n" +
+        "/* --- footer --- */\n" +
+        
+        "footer {\n" +
+            "display: flex;\n" +
+            "flex-direction: column;\n" +
+            "justify-content: center;\n" +
+            "align-items: center;\n" +
+            "height: 150px;\n" +
+            "background-color: #659224;\n" +
+            "border: 2px solid rgb(255, 255, 255);\n" +
+            "border-radius: 20px;\n" +
+            "color: white;\n" +
+        "}\n" +
+        
+        "@media only screen and (max-width: 500px) {\n" +
+            ".partie_nom_photo {\n" +
+                "display: flex;\n" +
+                "flex-direction: column;\n" +
+            "}\n" +
+            ".name {\n" +
+                "margin-bottom: 25px;\n" +
+            "}\n" +
+        "}\n" +
+        "/* --- logo --- */\n" +
+        
+        ".logo {\n" +
+            "width: 290px;\n" +
+            "height: 100%;\n" +
+        "}\n" +
 
                         "<body>\n" +
                         "<!-- main -->\n" +
