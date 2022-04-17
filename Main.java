@@ -415,7 +415,7 @@ public class Main {
                         "<footer>\n" +
                         "<div class=\"logo\">\n" +
                         //récupére l'image de la personne
-                        "<img width=\"400\" height=\"400\" src=\"/var/www/html/MSPR_E6.1/" + fileName + ".png\" />\n" + // chemin + filename + ".png"
+                        "<img width=\"400\" height=\"400\" src=\"/var/www/html/MSPR_E6.1/" + fileName + ".jpg\" />\n" + // chemin + filename + ".png"
                         "</div>\n" +
                         "</footer>\n" +
                         "</body>\n" +
